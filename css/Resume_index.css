@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: auto;
+	font-family: "Microsoft Yahei";
+	letter-spacing: 3px;
+}
+.wrap{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+.content{
+	position: relative;
+	width: 100%;
+	background: #FAFAFA;
+}
+.re_list{
+	position: relative;
+	width: 100%;
+	height: 105vh;	
+	margin-bottom: 20px;
+}
+#list_1{
+	position: relative;
+	background-image: url("../image/bg1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 700px;
+	overflow: hidden;
+}
+.myIntro{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding-top: 35vh;
+}
+.myIntro h1{
+	font-family: cursive,'Lato', sans-serif;
+	font-size: 50px;
+}
+.myIntro h3{
+	font-size: 20px;
+	padding: 20px 0;
+}
+.fade{
+	opacity: inherit;
+}
+.myIntro span{
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	line-height: 48px;
+	border-radius: 5px;
+	margin: 5px;
+	border: 1px solid;
+}
+.fade4{
+	background-color: #2C3E50;
+	color: #fff;
+}
+.fade5{
+	background-color: #fff;
+	color: #2C3E50;
+}
+ul{
+	list-style: none;
+}
+.nav_ul li:hover{
+	color: #E47C04;
+}
+h2{
+	text-align: center;
+}
+/*关于我*/
+#list_2{
+	height: 80vh;
+}
+.re_nav{
+	width: 100%;
+	height: 70px;
+	background-color:#2C3E50 ;
+	left: 0;
+}
+.fixed{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.my_intro p{
+	padding: 2em 0 0em;
+	text-indent: 2em;
+	text-align: justify;
+	margin: 0 0 10px;
+}
+
+/*技术掌握*/
+#list_5{
+	background-attachment: fixed;/*背景滚动属性*/
+	background-image: url("../img/skills-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h2{
+	padding-top: 150px;
+}
+
+.container{
+	position: relative;
+	max-width: 1200px;
+	/*height: 80px;*/
+	overflow: hidden;
+	text-align: center;
+	/*top: 40px;*/
+}
+.container a{
+	color: #fff;
+}
+.container .boke{
+	position:absolute;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 65px;
+}
+.container ul{
+	display: block;
+}
+.container .long{
+	float: right;
+}
+.long li{
+	display: inline;
+	float: left;
+	width: 100px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+}
+.nav_ul:hover{
+	color: #FA9732;
+}
+.re_list h2{
+	margin-top: 100px;
+}
+hr{
+	position: relative;
+	width: 70px;
+	height: 4px;
+	text-align: center;
+	background: #E87E04;
+	left: 50%;
+	margin-left: -36px;
+}
+.re_center{
+	text-align: center;
+	padding-top: 40px;
+}
+.icon_avatar img{
+	max-width: 200px;
+	width: 40%;
+	border-radius: 50%;
+}
+
+
+
+/*专业技能*/
+.wrap_container{
+	position: relative;
+	margin: auto;
+}
+.wrap_box {
+	width: 960px;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+.wrap_content{
+	width:278px;
+	margin:0;
+	position:relative;
+	/*float:left;*/
+	left: 50%;
+	margin-left: -169px;
+	font-size:12px;
+	line-height:2em;
+	padding:30px 0 30px;
+}
+.col { 
+	width:280px;
+	margin: auto; 
+}
+
+#wrap_line { 
+	list-style:none; 
+	padding-top:30px;
+}
+
+#wrap_line li { 
+	margin-bottom:70px; 
+	background:#fff; 
+	height:7px; 
+	border-radius:3px; 
+	border-left:1px solid #DDD; 
+	border-top:1px solid #DDD; 
+	border-right:1px solid #D1D1D1; 
+	border-bottom:1px solid #D1D1D1;  
+}
+
+#wrap_line li em { 
+	position:relative; 
+	top:-30px;
+	font-weight: bold;
+}
+
+.expand { 
+	height:1px; 
+	margin:2px 0; 
+	background:#2C3E50; 
+	position:absolute;
+	box-shadow:0px 0px 10px 1px #2C3E50;
+}
+
+.html5 { 
+	width:70%;  
+	-moz-animation:html5 2s ease-out;      
+	-webkit-animation:html5 2s ease-out;    
+}
+.css3        { width:75%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
+.jquery      { width:50%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
+.photoshop   { width:10%;  -moz-animation:photoshop 2s ease-out;   -webkit-animation:photoshop 2s ease-out;   }
+.js 		 { width:40%; -moz-animation:js 2s ease-out; -webkit-animation:js 2s ease-out; }
+
+@-moz-keyframes html5{ 
+	0%  { width:0px;} 
+	100%{ width:70%;}  
+}
+@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes photoshop   { 0%  { width:0px;} 100%{ width:10%;}  }
+@-moz-keyframes js { 0%  { width:0px;} 100%{ width:40%;} }
+
+@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes css3        { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes photoshop   { 0%  { width:0px;} 100%{ width:10%;}  }
+@-webkit-keyframes js { 0%  { width:0px;} 100%{ width:40%;} }
+
+
+/*作品集*/
+#list_4 .demo{
+	position: relative;
+	top: 20;
+	}
+	#list_4 .container > div {
+		padding: 10px;
+		transition: all 0.3s linear;
+	}
+#list_4 .container > div:hover{
+	transition: all 0.3s linear;
+    padding: 5px;
+	}
+#list_4 .container > div:hover .zp-cover{
+    display: block;
+    padding:  0 2em;
+}
+/*#list_4 .container > div:hover .imgbox{*/
+    /*-webkit-filter: brightness(0.3);*/
+    /*filter: brightness(0.3);*/
+   /*-webkit-transform: :scale(0.5);
+   transition: .3s transform;
+}*/
+#list_4 .container>div .imgbox{
+    width:100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    text-align: center;
+    /*margin-bottom: 30px;*/
+     /*-webkit-filter: brightness(0.3);*/
+}
+#list_4 .container > div:hover .imgbox img{
+	-webkit-filter: brightness(0.3);
+	filter: brightness(0.3);
+}
+
+#list_4 .container .imgbox img{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+#list_4 .container .zp-cover{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -46px;
+	left: 0;
+	display: none;
+}
+#list_4 .container>div:hover .zp-cover{
+	display: block;
+}
+#list_4 .container >div .zp-cover h4{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+}
+#list_4 .container >div .zp-cover p{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	padding: 0 1em;
+	letter-spacing: 0;
+}
+#list_4 .container > div .zp-cover img{
+    width: 25px;
+    height: 25px;
+}
+
+/*联系我*/
+
+#list_7{
+	background-image: url("../img/achivements-bg.jpg");
+	background-attachment: fixed;/*背景滚动属性*/
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#list_7 .container .chat{
+	width: 200px;
+	height: 200px;
+}
+#list_7 .container .message{
+	margin-top: 30px;
+}
+#list_7 .container span{
+	display: block;
+	padding: 2em 0 0em;
+	text-align: left;
+}
+.tel1{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 6%;
+	margin-right: 5%;
+}
+#list_7 .message{
+	position: relative;
+	width: 350px;
+	margin-left: -100px;
+	left: 50%;
+}
+#list_7 .bottom .git{
+	width: 35px;
+	height: 34px;
+	margin-top: 2%;
+}
+#list_7 .cloud{
+	width: 45px;
+	height: 44px;
+	margin-top: 2%;
+	margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 768px){
+   
+    /*我的作品hover改变*/
+    #list_4 .container > div .zp-cover{
+        display: block;
+    }
+    #list_4 .container>div .imgbox img{
+        -webkit-filter: brightness(0.3);
+        filter: brightness(0.3);
+    }
+ 
+}
